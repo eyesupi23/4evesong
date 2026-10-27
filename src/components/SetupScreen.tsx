@@ -81,7 +81,7 @@ export default function SetupScreen({ options, onStart }: Props) {
       <p className="animate-blink mt-3 font-pixel text-[10px] text-white/70 sm:text-xs">
         PRESS ENTER
       </p>
-      {/* <p className="mt-3 font-pixel text-[10px] text-comet sm:text-xs">⏱ เลือกให้ทันเวลา ยิ่งท้ายยิ่งเร็ว!</p> */}
+      <p className="mt-8 font-pixel text-[12px] text-comet text-[#fff04d]">**เกมนี้เป็นแค่เกมที่แฟนคลับจัดทำขึ้นเพื่อความบันเทิงเท่านั้น ศิลปินหรือค่ายไม่มีส่วนเกี่ยวข้องใดๆ ทั้งสิ้น**</p>
 
       {showRules && (
         <div
